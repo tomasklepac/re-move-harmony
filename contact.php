@@ -1,12 +1,9 @@
 <?php include 'includes/header.php'; ?>
 
-<!-- Font Awesome pro ikonky -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
 <section class="page-hero">
     <div class="container">
         <h1>Kontakt</h1>
-        <p>Jsme tu pro vás v centru Plzně.</p>
+        <p>Jsme v Plzni na Tylově. Ozvěte se a domluvíme, co potřebujete.</p>
     </div>
 </section>
 
@@ -15,13 +12,10 @@
         <div class="contact-info">
             <h2>Kde nás najdete</h2>
             <p>
-                Naše studio se nachází v klidné části Plzně v Tylově ulici, nedaleko centra.
-                Snadno se k nám dostanete autem i MHD.
-                <strong>Parkování</strong> je možné naproti vchodu nebo na parkovišti u autobusového nádraží.
-                Výborná je i dostupnost MHD – trolejbus č. 12 nebo tramvaj č. 2.
+                Studio je v klidné části Plzně, Tylova ulice, kousek od centra. Snadno se k nám dostanete autem i MHD.
+                Parkování je naproti vchodu nebo na parkovišti u autobusového nádraží. Z MHD se hodí trolejbus č. 12 nebo tramvaj č. 2.
             </p>
 
-            <!-- 🔹 Telefon a e-mail jako kulatá tlačítka -->
             <div class="contact-actions">
                 <a href="tel:+420732912705" class="contact-btn">
                     <i class="fa-solid fa-phone"></i>
@@ -33,9 +27,14 @@
                     info@removeharmony.cz
                 </a>
 
-                <a href="https://www.instagram.com/re_move_harmony/" target="_blank" class="contact-btn">
+                <a href="https://www.instagram.com/re_move_harmony/" target="_blank" class="contact-btn" rel="noopener">
                     <i class="fa-brands fa-instagram"></i>
                     Instagram
+                </a>
+
+                <a href="https://www.reservio.cz/b/re-move-harmony" target="_blank" class="contact-btn" rel="noopener">
+                    <i class="fa-solid fa-calendar-check"></i>
+                    Rezervace přes Reservio
                 </a>
             </div>
 

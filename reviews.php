@@ -2,20 +2,17 @@
 
 <section class="page-hero">
     <div class="container">
-        <h1>Recenze klientů</h1>
-        <p>Co o nás říkají naši spokojení zákazníci.</p>
+        <h1>Hodnocení klientů</h1>
+        <p>Recenze sbíráme na Reserviu po každé návštěvě. Podívejte se, co o nás klienti píší.</p>
     </div>
 </section>
 
-<section class="reviews">
-    <div class="container reviews-grid">
-        <div class="review-card">
-            <p>„Profesionální přístup, krásné prostředí a po masáži jsem jako nový.“</p>
-            <span>- Martin</span>
-        </div>
-        <div class="review-card">
-            <p>„Skvělá fyzioterapie, po několika návštěvách mě přestala bolet záda. Doporučuji!“</p>
-            <span>- Nikola</span>
+<section class="reviews-page">
+    <div class="container reviews-copy">
+        <p>Upřednostňujeme ověřené recenze přímo v rezervačním systému. Díky tomu jsou hodnocení spojená s konkrétní návštěvou a od reálných klientů.</p>
+        <div class="cta-actions">
+            <a class="btn-primary" href="https://www.reservio.cz/b/re-move-harmony" target="_blank" rel="noopener">Otevřít recenze na Reserviu</a>
+            <a class="btn-outline" href="reservation.php">Zpět na rezervace</a>
         </div>
     </div>
 </section>

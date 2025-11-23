@@ -17,7 +17,8 @@ Project structure
 - `reservation.php` - booking instructions and a CTA to the Reservio scheduling link.
 - `contact.php` - contact actions, address, opening hours, and Google Maps embed.
 - `team.php` - therapist bios and photos.
-- `reviews.php` - client testimonials.
+- `reviews.php` - link-out to verified client reviews on Reservio.
+- `gallery.php` - photo gallery (live shots now, service/team photos to be added).
 - `includes/` - shared `header.php`, `footer.php`, and meta tags.
 - `assets/css/` - base and responsive stylesheets.
 - `assets/js/main.js` - interactive behavior (e.g., burger menu).

@@ -3,7 +3,7 @@
 <section class="page-hero">
     <div class="container">
         <h1>Rezervace</h1>
-        <p>Objednejte si svůj termín pohodlně online.</p>
+        <p>Objednejte si termín pohodlně online přes Reservio.</p>
     </div>
 </section>
 
@@ -12,15 +12,12 @@
         <div class="reservation-text">
             <h2>Jak si rezervovat termín</h2>
             <p>
-                Rezervace probíhají přes náš online systém Reservio, kde si jednoduše vyberete
-                službu, datum a čas, který vám nejvíce vyhovuje. Potvrzení obdržíte e-mailem.
+                Rezervace probíhají přes náš online systém Reservio. Vyberete službu, datum a čas, který vám nejlépe vyhovuje. Potvrzení obdržíte e-mailem.
             </p>
             <p>
-                Platbu lze provést <strong>v hotovosti na místě</strong> nebo
-                <strong>QR platbou</strong>.
-                V případě jakýchkoliv dotazů nás můžete kontaktovat telefonicky nebo e-mailem.
+                Platbu můžete provést <strong>v hotovosti na místě</strong> nebo <strong>QR platbou</strong>. Pokud budete mít jakékoli dotazy, zavolejte nebo napište.
             </p>
-            <a href="https://www.reservio.cz/b/re-move-harmony" target="_blank" class="btn-primary">
+            <a href="https://www.reservio.cz/b/re-move-harmony" target="_blank" class="btn-primary" rel="noopener">
                 Rezervovat termín
             </a>
         </div>
