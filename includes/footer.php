@@ -1,11 +1,9 @@
 <footer class="footer-minimal">
     <div class="container footer-grid">
         <div class="footer-brand">
-            <img src="assets/img/logo/logo_clear_modre.png" alt="Re-Move Harmony logo" class="footer-logo">
             <p>Re-Move Harmony — masáže, fyzioterapie a pohybová terapie v Plzni.</p>
         </div>
         <div class="footer-meta">
-            <h4>Kontakt</h4>
             <div class="footer-contact-actions">
                 <a href="tel:+420732912705" class="contact-btn footer-btn">
                     <i class="fa-solid fa-phone"></i>

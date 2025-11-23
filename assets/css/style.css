@@ -806,11 +806,6 @@ a {
     align-items: start;
 }
 
-.footer-logo {
-    height: 48px;
-    margin-bottom: 10px;
-}
-
 .footer-brand p {
     color: #c3d2d2;
 }
@@ -858,8 +853,8 @@ a {
 .footer-contact-actions {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
-    margin: 8px 0 10px;
+    gap: 14px;
+    margin: 12px 0 10px;
 }
 
 .contact-btn.footer-btn {
