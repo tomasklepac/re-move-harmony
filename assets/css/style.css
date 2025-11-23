@@ -808,6 +808,7 @@ a {
 
 .footer-brand p {
     color: #c3d2d2;
+    margin-bottom: 10px;
 }
 
 .footer-links,
@@ -854,7 +855,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 14px;
-    margin: 12px 0 10px;
+    margin: 16px 0 12px;
 }
 
 .contact-btn.footer-btn {
