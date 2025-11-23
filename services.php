@@ -10,26 +10,31 @@
 <section class="services">
     <div class="container">
 
-        <h2 class="service-section-title">Regenerační masáže</h2>
-        <div class="services-grid">
+        <div class="services-filter">
+            <button class="filter-btn active" data-filter="all">Vše</button>
+            <button class="filter-btn" data-filter="masaze">Masáže</button>
+            <button class="filter-btn" data-filter="rehab">Rehabilitace</button>
+            <button class="filter-btn" data-filter="tejpy">Tejpování</button>
+        </div>
 
-            <div class="service-card">
+        <div class="services-grid">
+            <div class="service-card" data-category="masaze">
                 <div class="service-tag">Foto doplníme</div>
                 <img src="assets/img/gallery/interier_1.jpeg" alt="Relaxační masáž 30 minut">
                 <h3>Relaxační masáž (30 min)</h3>
-                <p>Rychlá, ale intenzivní masáž zaměřená na uvolnění zad a šíje. Jemné techniky, které odbourají stres a vrátí energii během dne.</p>
+                <p>Rychlá, ale intenzivní masáž zaměřená na uvolnění zad a šíje. Jemné techniky odbourají stres a vrátí energii během dne.</p>
                 <span class="price">400 Kč</span>
             </div>
 
-            <div class="service-card">
+            <div class="service-card" data-category="masaze">
                 <div class="service-tag">Foto doplníme</div>
                 <img src="assets/img/gallery/interier_2.jpeg" alt="Relaxační masáž 60 minut">
                 <h3>Relaxační masáž (60 min)</h3>
-                <p>Cílená masáž pro úlevu od napětí a únavy. Uvolňuje ztuhlé svaly zad, šíje a beder, podporuje regeneraci po zátěži a navozuje klid.</p>
+                <p>Cílená masáž pro úlevu od napětí a únavy. Uvolňuje ztuhlé svaly zad, šíje a beder, podporuje regeneraci a navozuje klid.</p>
                 <span class="price">700 Kč</span>
             </div>
 
-            <div class="service-card">
+            <div class="service-card" data-category="masaze">
                 <div class="service-tag">Foto doplníme</div>
                 <img src="assets/img/gallery/interier_3.jpeg" alt="Sportovní masáž">
                 <h3>Sportovní masáž</h3>
@@ -37,7 +42,7 @@
                 <span class="price">400 Kč</span>
             </div>
 
-            <div class="service-card">
+            <div class="service-card" data-category="masaze">
                 <div class="service-tag">Foto doplníme</div>
                 <img src="assets/img/gallery/interier_4.jpeg" alt="Celková masáž těla">
                 <h3>Celková masáž</h3>
@@ -45,7 +50,7 @@
                 <span class="price">700 Kč</span>
             </div>
 
-            <div class="service-card">
+            <div class="service-card" data-category="masaze">
                 <div class="service-tag">Foto doplníme</div>
                 <img src="assets/img/gallery/interier_5.jpeg" alt="Masáž dolních končetin">
                 <h3>Masáž dolních končetin</h3>
@@ -53,7 +58,7 @@
                 <span class="price">300 Kč</span>
             </div>
 
-            <div class="service-card">
+            <div class="service-card" data-category="masaze">
                 <div class="service-tag">Foto doplníme</div>
                 <img src="assets/img/gallery/interier_6.jpeg" alt="Masáž rukou">
                 <h3>Masáž rukou (30 min)</h3>
@@ -61,7 +66,7 @@
                 <span class="price">300 Kč</span>
             </div>
 
-            <div class="service-card">
+            <div class="service-card" data-category="masaze">
                 <div class="service-tag">Foto doplníme</div>
                 <img src="assets/img/gallery/interier_7.jpeg" alt="Masáž obličeje">
                 <h3>Masáž obličeje</h3>
@@ -69,7 +74,7 @@
                 <span class="price">300 Kč</span>
             </div>
 
-            <div class="service-card">
+            <div class="service-card" data-category="masaze">
                 <div class="service-tag">Foto doplníme</div>
                 <img src="assets/img/gallery/interier_8.jpeg" alt="Masáž lávovými kameny">
                 <h3>Masáž lávovými kameny</h3>
@@ -77,18 +82,15 @@
                 <span class="price">800 Kč</span>
             </div>
 
-            <div class="service-card">
+            <div class="service-card" data-category="masaze">
                 <div class="service-tag">Foto doplníme</div>
                 <img src="assets/img/services/banky_1.jpeg" alt="Baňková masáž">
                 <h3>Baňková masáž</h3>
                 <p>Tradiční technika s využitím podtlaku pro hluboké uvolnění svalů. Zlepšuje krevní i lymfatický oběh a pomáhá při bolestech zad.</p>
                 <span class="price">300 Kč</span>
             </div>
-        </div>
 
-        <h2 class="service-section-title">Rehabilitace</h2>
-        <div class="services-grid">
-            <div class="service-card">
+            <div class="service-card" data-category="rehab">
                 <div class="service-tag">Foto doplníme</div>
                 <img src="assets/img/gallery/zada.jpeg" alt="Pohybová terapie">
                 <h3>Pohybová terapie</h3>
@@ -96,18 +98,15 @@
                 <span class="price">500 Kč</span>
             </div>
 
-            <div class="service-card">
+            <div class="service-card" data-category="rehab">
                 <div class="service-tag">Foto doplníme</div>
                 <img src="assets/img/gallery/gumy.jpeg" alt="Ergoterapie">
                 <h3>Terapie pro každodenní činnosti</h3>
                 <p>Podpora soběstačnosti po úrazu či nemoci. Učíme efektivní pohyb, práci s pomůckami a jistotu při každodenních aktivitách.</p>
                 <span class="price">350 Kč</span>
             </div>
-        </div>
 
-        <h2 class="service-section-title">Tejpování</h2>
-        <div class="services-grid">
-            <div class="service-card">
+            <div class="service-card" data-category="tejpy">
                 <div class="service-tag">Foto doplníme</div>
                 <img src="assets/img/gallery/razitko_1.jpeg" alt="Kinezio tejpování">
                 <h3>Kinezio tejpování</h3>
@@ -115,7 +114,7 @@
                 <span class="price">250 Kč</span>
             </div>
 
-            <div class="service-card">
+            <div class="service-card" data-category="tejpy">
                 <div class="service-tag">Foto doplníme</div>
                 <img src="assets/img/gallery/razitko_2.jpeg" alt="Pevné tejpování">
                 <h3>Pevné tejpování</h3>
