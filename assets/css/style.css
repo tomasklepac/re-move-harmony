@@ -1,0 +1,650 @@
+/* =========================================================
+   Re-Move Harmony – Hlavní stylopis
+   Autor: Tomáš Klepač
+   Popis: Základní styly webu (bez responzivních částí)
+   ========================================================= */
+
+/* === 1. Proměnné barev a fontů ========================== */
+:root {
+    --primary: #3D7077;
+    --secondary: #8CC9C3;
+    --accent: #E8DCC2;
+    --text-dark: #222;
+    --text-light: #555;
+    --bg-light: #fff;
+}
+
+/* === 2. Reset a základní nastavení ======================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--text-dark);
+    background: rgba(201, 241, 241, 0.75);
+    line-height: 1.6;
+}
+
+/* Sekce s průhledným pozadím */
+.services,
+.contact-section,
+.reservation-info,
+.about-content,
+.review-card {
+    background: transparent !important;
+}
+
+/* === 3. Obecné kontejnery ================================ */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Rozšíření kontejneru pro header a footer */
+.navbar .container,
+.footer .container {
+    max-width: none;
+}
+
+/* =========================================================
+   4. Navigace (Navbar)
+   ========================================================= */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    z-index: 1000;
+}
+
+/* === Kontejner pro logo + menu === */
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* menu bude uprostřed */
+    height: 80px;
+    position: relative;
+    padding: 0 30px;
+}
+
+/* === Logo === */
+.logo {
+    position: absolute;
+    left: 10px; /* přilepené vlevo */
+    margin-left: -30px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 90px;
+}
+
+/* === Menu === */
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px; /* mezery mezi položkami */
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: var(--text-dark);
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+.nav-menu a:hover {
+    color: var(--primary);
+}
+
+/* =========================================================
+   5. Hero sekce (hlavní banner)
+   ========================================================= */
+.hero {
+    position: relative;
+    height: 90vh;
+    background: url('../img/hero/interier_5.jpeg') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: color-mix(in srgb, var(--primary) 55%, transparent);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 700px;
+}
+
+.hero h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* === Tlačítko (globální styl) === */
+.btn-primary {
+    display: inline-block;
+    background: var(--accent);
+    color: var(--text-dark);
+    padding: 12px 28px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background: var(--primary);
+    color: #fff;
+}
+
+/* =========================================================
+   6. Úvodní sekce (Intro)
+   ========================================================= */
+.intro {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.intro h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    color: var(--primary);
+    margin-bottom: 15px;
+}
+
+/* =========================================================
+   7. Minimalistický footer
+   ========================================================= */
+.footer-minimal {
+    background: transparent;
+    color: var(--text-dark);
+    text-align: center;
+    padding: 25px 0;
+    font-size: 0.95rem;
+    opacity: 0.8;
+}
+
+/* =========================================================
+   8. Page Hero (hlavička podstránek)
+   ========================================================= */
+.page-hero {
+    background: var(--primary);
+    color: #fff;
+    padding: 40px 0 40px;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.page-hero h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.2em;
+    margin-bottom: 10px;
+}
+
+.page-hero p {
+    font-size: 1.05em;
+    opacity: 0.9;
+}
+
+/* =========================================================
+   9. Služby (Services)
+   ========================================================= */
+
+.services {
+    padding: 80px 0;
+    background: linear-gradient(180deg, #d4e1e1 0%, #b3cccc 60%, #94b3b3 100%);
+}
+
+/* Mřížka karet služeb */
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* Jednotlivá karta služby */
+.service-card {
+    flex: 1 1 280px;
+    max-width: 320px;
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    transition: transform 0.2s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-4px);
+}
+
+/* Obrázky v kartách služeb */
+.service-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Cena služby */
+.price {
+    display: block;
+    margin-top: 10px;
+    color: var(--primary);
+    font-weight: 600;
+}
+
+/* Nadpis sekce služeb */
+.service-section-title {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8em;
+    color: var(--primary);
+    margin: 100px 0 40px;
+    position: relative;
+}
+
+.service-section-title::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: var(--accent);
+    margin: 12px auto 0;
+    border-radius: 2px;
+}
+
+/* =========================================================
+   10. O nás (About Section)
+   ========================================================= */
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    align-items: center;
+    padding: 80px 0;
+}
+
+/* Fotka v sekci O nás */
+.about-photo img {
+    max-width: 500px;
+    border-radius: 12px;
+}
+
+/* =========================================================
+   11. Recenze (Reviews)
+   ========================================================= */
+
+.review-card {
+    background: var(--accent);
+    border-radius: 10px;
+    padding: 25px;
+    text-align: center;
+    font-style: italic;
+}
+
+.review-card span {
+    display: block;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+/* =========================================================
+   12. Kontakt (Contact Section)
+   ========================================================= */
+
+.contact-section {
+    background: linear-gradient(to bottom, #d4e7e7 0%, #f4f9f9 100%);
+    padding: 80px 20px;
+    color: var(--text-dark);
+}
+
+/* === Rozložení kontaktu: text vlevo, mapa vpravo === */
+.contact-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 50px;
+}
+
+/* === Levá část: kontaktní text === */
+.contact-info {
+    flex: 1 1 45%;
+}
+
+.contact-info h2 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary);
+    font-size: 1.9rem;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 22px;
+    font-size: 1.05rem;
+    line-height: 1.7;
+}
+
+/* === Horní akční tlačítka (telefon, e-mail, IG) === */
+.contact-actions {
+    display: flex;
+    gap: 18px;
+    margin: 28px 0;
+    flex-wrap: wrap;
+}
+
+.contact-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: var(--primary);
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 12px 28px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    transition: all 0.25s ease;
+    font-size: 1rem;
+}
+
+.contact-btn:hover {
+    background: var(--secondary);
+    color: var(--text-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.25);
+}
+
+/* Ikony bez pozadí */
+.contact-btn i {
+    font-size: 1.2rem;
+    margin-right: 6px;
+    line-height: 1;
+}
+
+/* === Adresa a otevírací doba === */
+.contact-extra {
+    background: rgba(255,255,255,0.55);
+    border-radius: 14px;
+    padding: 20px 26px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.contact-extra i {
+    color: var(--primary);
+    margin-right: 10px;
+}
+
+.contact-extra strong {
+    color: var(--primary);
+    font-family: 'Poppins', sans-serif;
+}
+
+.contact-extra .address,
+.contact-extra .hours {
+    flex: 1;
+}
+
+/* === Mapa === */
+.contact-map {
+    flex: 1 1 50%;
+    display: flex;
+}
+
+.contact-map iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    border: none;
+}
+
+/* =========================================================
+   13. Rezervační sekce (Reservation Info)
+   ========================================================= */
+
+.reservation-info {
+    background: linear-gradient(to bottom, #ffffff 0%, #f5f9f9 100%);
+    padding: 80px 20px;
+    color: var(--text-dark);
+}
+
+/* Rozložení text + foto */
+.reservation-grid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    flex-wrap: nowrap;
+}
+
+/* Levá část – text */
+.reservation-text {
+    flex: 1;
+    max-width: 50%;
+}
+
+.reservation-text h2 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary);
+    margin-bottom: 25px;
+    font-size: 1.9rem;
+}
+
+.reservation-text p {
+    margin-bottom: 22px;
+    font-size: 1.1rem;
+    line-height: 1.75;
+    color: #333;
+}
+
+/* Pravá část – foto */
+.reservation-photo {
+    flex: 1;
+    max-width: 50%;
+    text-align: right;
+}
+
+.reservation-photo img {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    border-radius: 18px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+}
+
+/* Tlačítko rezervace */
+.reservation-text .btn-primary {
+    background: var(--primary);
+    color: #fff;
+    padding: 14px 36px;
+    border-radius: 30px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.reservation-text .btn-primary:hover {
+    background: var(--secondary);
+    color: var(--text-dark);
+    transform: translateY(-2px);
+}
+
+/* =========================================================
+   14. Domovská stránka – Sekce O nás (Section About)
+   ========================================================= */
+
+.section-about {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 60px;
+    padding: 90px 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.section-about.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* --- Textová část (moderní typografie) --- */
+.section-about .text {
+    flex: 1 1 500px;
+}
+
+.section-about .section-label {
+    color: var(--secondary);
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 14px;
+    letter-spacing: 1.8px;
+    opacity: 0.9;
+}
+
+.section-about h3 {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary);
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    line-height: 1.25;
+    margin-bottom: 22px;
+}
+
+.section-about p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500; /* o stupeň víc než běžný text, ale míň než nadpis */
+    font-size: 1.2rem;
+    color: #2a2a2a;
+    line-height: 1.9;
+    max-width: 92%;
+}
+
+
+/* --- Obrázková část --- */
+.section-about .image {
+    flex: 1 1 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-about .image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 28px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+.section-about .image img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* --- Jemné střídání pozadí jen pro sekce .section-about --- */
+.section-about.alt-left {
+    flex-direction: row;
+}
+
+.section-about.alt-right {
+    flex-direction: row-reverse;
+}
+
+/* =========================================================
+   15. Náhled týmu (Homepage)
+   ========================================================= */
+.team-preview {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.team-preview .team-title {
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary);
+    font-size: 2.1rem;
+    margin-bottom: 50px;
+}
+
+.team-preview .team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.team-preview .team-member {
+    flex: 1 1 250px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-preview .team-member img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.team-preview .team-member:hover img {
+    transform: scale(1.05);
+}
+
+.team-preview .team-member h3 {
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    color: var(--text-dark);
+    font-weight: 600;
+}
+
+.team-preview .team-member a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* =========================================================
+   Konec hlavního stylopisu
+   (responzivní styly přesunout do responsive.css)
+   ========================================================= */
