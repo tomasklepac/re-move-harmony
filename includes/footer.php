@@ -4,21 +4,18 @@
             <img src="assets/img/logo/logo_clear_modre.png" alt="Re-Move Harmony logo" class="footer-logo">
             <p>Re-Move Harmony — masáže, fyzioterapie a pohybová terapie v Plzni.</p>
         </div>
+        <div class="footer-links">
+            <h4>Rychlé odkazy</h4>
+            <a href="reservation.php">Rezervace (Reservio)</a>
+            <a href="services.php">Služby</a>
+            <a href="gallery.php">Fotogalerie</a>
+            <a href="contact.php">Kontakt</a>
+        </div>
         <div class="footer-meta">
-            <div class="footer-contact-actions">
-                <a href="tel:+420732912705" class="contact-btn footer-btn">
-                    <i class="fa-solid fa-phone"></i>
-                    +420 732 912 705
-                </a>
-                <a href="mailto:info@removeharmony.cz" class="contact-btn footer-btn">
-                    <i class="fa-solid fa-envelope"></i>
-                    info@removeharmony.cz
-                </a>
-                <a href="https://www.instagram.com/re_move_harmony/" target="_blank" rel="noopener" class="contact-btn footer-btn">
-                    <i class="fa-brands fa-instagram"></i>
-                    Instagram
-                </a>
-            </div>
+            <h4>Kontakt</h4>
+            <a href="tel:+420732912705">+420 732 912 705</a>
+            <a href="mailto:info@removeharmony.cz">info@removeharmony.cz</a>
+            <a href="https://www.instagram.com/re_move_harmony/" target="_blank" rel="noopener">Instagram</a>
             <p class="legal-note">Zásady ochrany osobních údajů — k dispozici na vyžádání.</p>
         </div>
     </div>
