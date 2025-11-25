@@ -22,8 +22,8 @@
             <img src="assets/img/gallery/interier_2.jpeg" alt="Barbora Kuttanová">
             <div class="info">
                 <h2>Barbora Kuttanová</h2>
-                <p>Fyzioterapeutka se zaměřením na pohybovou terapii a rehabilitaci. Věří, že správný pohyb a dech jsou základem pro dlouhodobou úlevu od bolesti.</p>
-                <p class="tagline">Zaměření: fyzioterapie, pohybová terapie, tejpy.</p>
+                <p>Terapeutka se zaměřením na pohybovou terapii a rehabilitaci. Věří, že správný pohyb a dech jsou základem pro dlouhodobou úlevu od bolesti.</p>
+                <p class="tagline">Zaměření: Relaxační terapie, pohybová terapie, tejpy.</p>
             </div>
         </div>
     </div>

@@ -5,13 +5,13 @@
     <div class="hero-content">
         <p class="eyebrow">Plzeň • Tylova 68</p>
         <h1>Re-Move Harmony</h1>
-        <p>Masáže, fyzioterapie a pohybová terapie. Pomůžeme vám vrátit tělu i mysli lehkost a klid.</p>
+        <p>Masáže, relaxační a pohybové terapie. Pomůžeme vám vrátit tělu i mysli lehkost a klid.</p>
         <div class="hero-actions">
             <a href="https://www.reservio.cz/b/re-move-harmony" class="btn-primary" target="_blank" rel="noopener">Rezervovat termín</a>
             <a href="contact.php" class="btn-outline">Kontakt</a>
         </div>
         <div class="hero-badges">
-            <span>Masáže & fyzioterapie</span>
+            <span>Masáže & terapie</span>
             <span>Individuální plán</span>
             <span>Respekt k vašemu tempu</span>
         </div>
@@ -39,7 +39,7 @@
     <div class="text">
         <p class="section-label">O studiu</p>
         <h3>Vracíme tělu i mysli rovnováhu</h3>
-        <p>V Re-Move Harmony propojujeme masáže, fyzioterapii a pohybovou terapii. Ulevíme od bolesti, naučíme vás, jak se hýbat bez obav, a nastavíme postup, který dává smysl vašemu životnímu rytmu.</p>
+        <p>V Re-Move Harmony propojujeme masáže, relaxační a pohybové terapie. Ulevíme od bolesti, naučíme vás, jak se hýbat bez obav, a nastavíme postup, který dává smysl vašemu životnímu rytmu.</p>
     </div>
     <div class="image">
         <img src="assets/img/logo/logo_clear.png" alt="Re-Move Harmony logo">
@@ -53,7 +53,7 @@
         <p>Relaxační i sportovní masáže, baňkování a tejpy pro rychlejší regeneraci a stabilitu. Vše děláme citlivě, aby se tělo uvolnilo a mohlo se bezpečně vrátit k pohybu.</p>
     </div>
     <div class="image">
-        <img src="assets/img/gallery/interier_3.jpeg" alt="Masážní místnost">
+        <img src="assets/img/services/procedura_bankovani_6.jpeg" alt="Masážní místnost">
     </div>
 </section>
 
@@ -64,7 +64,7 @@
         <p>Ukážeme vám jednoduché cviky a návyky, které zmenší bolest a posílí stabilitu. Soustředíme se na funkční pohyb, dech a postupné kroky, které můžete zapojit do běžného dne.</p>
     </div>
     <div class="image">
-        <img src="assets/img/gallery/interier_6.jpeg" alt="Fyzioterapie s klientem">
+        <img src="assets/img/services/procedura_pohybova_terapie.jpeg" alt="Fyzioterapie s klientem">
     </div>
 </section>
 

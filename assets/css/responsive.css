@@ -21,7 +21,10 @@
         border-bottom: 1px solid rgba(0,0,0,0.05);
         box-shadow: 0 12px 30px rgba(0,0,0,0.06);
     }
-    .nav-menu.active { max-height: 360px; }
+    .nav-menu.active {
+        max-height: calc(100vh - 82px);
+        overflow-y: auto;
+    }
     .nav-menu a {
         width: 100%;
         text-align: center;
@@ -57,7 +60,7 @@
     .contact-actions { flex-direction: column; }
     .contact-btn { width: 100%; justify-content: center; }
     .contact-extra { flex-direction: column; }
-    .gallery-card, .gallery-placeholder { min-height: 180px; }
+    .gallery-card, .gallery-placeholder { min-height: 0; }
 }
 
 @media (max-width: 520px) {

@@ -1,12 +1,8 @@
 <footer class="footer-minimal">
     <div class="container footer-grid">
-        <div class="footer-brand">
-            <img src="assets/img/logo/logo_clear_modre.png" alt="Re-Move Harmony logo" class="footer-logo">
-            <p>Re-Move Harmony — masáže, fyzioterapie a pohybová terapie v Plzni.</p>
-        </div>
         <div class="footer-links">
             <h4>Rychlé odkazy</h4>
-            <a href="reservation.php">Rezervace (Reservio)</a>
+            <a href="reservation.php">Rezervace</a>
             <a href="services.php">Služby</a>
             <a href="gallery.php">Fotogalerie</a>
             <a href="contact.php">Kontakt</a>

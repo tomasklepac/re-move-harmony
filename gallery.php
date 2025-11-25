@@ -3,7 +3,7 @@
 <section class="page-hero">
     <div class="container">
         <h1>Fotogalerie</h1>
-        <p>Náhledy prostoru a procedur. Další fotky doplníme hned, jak je obdržíme.</p>
+        <p>Jedna útulná místnost pro všechny procedury. Podívejte se, jak to u nás vypadá a jak pracujeme.</p>
     </div>
 </section>
 
@@ -11,41 +11,74 @@
     <div class="container">
         <div class="gallery-grid">
             <figure class="gallery-card">
-                <img src="assets/img/gallery/interier_1.jpeg" alt="Interiér studia">
-                <figcaption>Interiér • náhled</figcaption>
+                <img src="assets/img/gallery/interier_7.jpeg" alt="Interiér">
+                <figcaption>Interiér</figcaption>
             </figure>
             <figure class="gallery-card">
-                <img src="assets/img/gallery/interier_2.jpeg" alt="Zázemí pro klienty">
-                <figcaption>Zázemí pro klienty</figcaption>
+                <img src="assets/img/gallery/karticky_2.jpeg" alt="Věrnostní karty">
+                <figcaption>Věrnostní karty</figcaption>
             </figure>
             <figure class="gallery-card">
-                <img src="assets/img/gallery/interier_3.jpeg" alt="Masážní místnost">
-                <figcaption>Masážní místnost</figcaption>
+                <img src="assets/img/gallery/interier_3.jpeg" alt="Interiér">
+                <figcaption>Interiér</figcaption>
             </figure>
             <figure class="gallery-card">
-                <img src="assets/img/gallery/interier_4.jpeg" alt="Detail vybavení">
-                <figcaption>Detail vybavení</figcaption>
+                <img src="assets/img/gallery/interier_6.jpeg" alt="Pomůcky">
+                <figcaption>Pomůcky</figcaption>
             </figure>
             <figure class="gallery-card">
-                <img src="assets/img/gallery/interier_5.jpeg" alt="Relax zóna">
-                <figcaption>Relax zóna</figcaption>
+                <img src="assets/img/gallery/gumy.jpeg" alt="Gumy na cvičení">
+                <figcaption>Gumy na cvičení</figcaption>
             </figure>
             <figure class="gallery-card">
-                <img src="assets/img/gallery/interier_6.jpeg" alt="Prostor pro cvičení">
-                <figcaption>Prostor pro cvičení</figcaption>
+                <img src="assets/img/gallery/maseri_vyska.jpeg" alt="Tým">
+                <figcaption>Tým</figcaption>
             </figure>
             <figure class="gallery-card">
-                <img src="assets/img/gallery/interier_7.jpeg" alt="Pohled do studia">
-                <figcaption>Pohled do studia</figcaption>
+                <img src="assets/img/gallery/procedura_relaxacni-sportovni_masaz_1.jpeg" alt="Relaxační masáž zad">
+                <figcaption>Relaxační masáž zad</figcaption>
             </figure>
             <figure class="gallery-card">
-                <img src="assets/img/gallery/interier_8.jpeg" alt="Další zákoutí">
-                <figcaption>Další zákoutí</figcaption>
+                <img src="assets/img/gallery/procedura_celkova_masaz_1.jpeg" alt="Celková masáž">
+                <figcaption>Celková masáž</figcaption>
             </figure>
-            <div class="gallery-placeholder">Místo pro nové fotky služeb</div>
-            <div class="gallery-placeholder">Místo pro týmové portréty</div>
+            <figure class="gallery-card">
+                <img src="assets/img/gallery/procedura_masaz_nohou_1.jpeg" alt="Masáž nohou">
+                <figcaption>Masáž nohou</figcaption>
+            </figure>
+            <figure class="gallery-card">
+                <img src="assets/img/gallery/procdura_masaz_rukou_1.jpeg" alt="Masáž rukou">
+                <figcaption>Masáž rukou</figcaption>
+            </figure>
+            <figure class="gallery-card">
+                <img src="assets/img/gallery/procedura_masaz_obliceje_1.jpeg" alt="Masáž obličeje a dekoltu">
+                <figcaption>Masáž obličeje a dekoltu</figcaption>
+            </figure>
+            <figure class="gallery-card">
+                <img src="assets/img/gallery/procedura_bankovani_1.jpeg" alt="Baňkování">
+                <figcaption>Baňkování</figcaption>
+            </figure>
+            <figure class="gallery-card">
+                <img src="assets/img/gallery/procedura_tejpovani_1.jpeg" alt="Tejpování">
+                <figcaption>Tejpování</figcaption>
+            </figure>
+            <figure class="gallery-card">
+                <img src="assets/img/gallery/procedura_pohybova_terapie.jpeg" alt="Cvičení s klientem">
+                <figcaption>Cvičení s klientem</figcaption>
+            </figure>
+            <figure class="gallery-card">
+                <img src="assets/img/gallery/oleje_1.jpeg" alt="Masážní oleje">
+                <figcaption>Masážní oleje</figcaption>
+            </figure>
+            <figure class="gallery-card">
+                <img src="assets/img/gallery/vizitky_4.jpeg" alt="Vizitky">
+                <figcaption>Vizitky</figcaption>
+            </figure>
+            <figure class="gallery-card">
+                <img src="assets/img/gallery/procedura_tejpovani_2.jpeg" alt="Tejpování">
+                <figcaption>Tejpování</figcaption>
+            </figure>
         </div>
-        <p class="gallery-note">Další fotky (procedury, tým, detailní záběry) doplníme po dodání od klienta.</p>
     </div>
 </section>
 

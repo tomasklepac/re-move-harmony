@@ -23,7 +23,7 @@
         </div>
 
         <div class="reservation-photo">
-            <img src="assets/img/gallery/interier_2.jpeg" alt="Interiér Re-Move Harmony">
+            <img src="assets/img/gallery/interier_3.jpeg" alt="Interiér Re-Move Harmony">
         </div>
     </div>
 </section>

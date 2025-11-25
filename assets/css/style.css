@@ -172,7 +172,7 @@ a {
 .hero {
     position: relative;
     height: 85vh;
-    background: url('../img/hero/interier_5.jpeg') center/cover no-repeat;
+    background: url('../img/hero/interier_1.jpeg') center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -471,8 +471,9 @@ a {
 
 .services-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 320px));
     gap: 22px;
+    justify-content: center;
 }
 
 .service-card {
@@ -777,8 +778,9 @@ a {
 
 .gallery-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(240px, 280px));
     gap: 16px;
+    justify-content: center;
 }
 
 .gallery-card,
@@ -788,7 +790,8 @@ a {
     border-radius: 16px;
     overflow: hidden;
     box-shadow: var(--shadow-soft);
-    min-height: 220px;
+    aspect-ratio: 1 / 1;
+    min-height: 0;
 }
 
 .gallery-card img {
@@ -827,6 +830,97 @@ a {
     text-align: center;
 }
 
+.lightbox-open {
+    overflow: hidden;
+}
+
+.lightbox {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.72);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.2s ease, visibility 0.2s ease;
+    z-index: 999;
+    padding: 16px;
+}
+
+.lightbox.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.lightbox-content {
+    position: relative;
+    max-width: min(1080px, 96vw);
+    max-height: 88vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.lightbox-img {
+    max-height: 82vh;
+    max-width: 100%;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.35);
+    background: #0f1516;
+}
+
+.lightbox-caption {
+    color: #f4f7f7;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.98rem;
+    text-shadow: 0 1px 6px rgba(0, 0, 0, 0.6);
+}
+
+.lightbox-close {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: rgba(255, 255, 255, 0.92);
+    border: none;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    color: #24373b;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.lightbox-nav {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+
+.lightbox-nav button {
+    pointer-events: auto;
+    background: rgba(255, 255, 255, 0.85);
+    border: none;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    color: #24373b;
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.26);
+    display: grid;
+    place-items: center;
+}
+
 /* Footer */
 .footer-minimal {
     background: #0e1b1e;
@@ -840,6 +934,8 @@ a {
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 28px;
     align-items: start;
+    justify-items: center;
+    text-align: center;
 }
 
 .footer-brand {
@@ -865,7 +961,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 6px;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .footer-links h4,
@@ -873,6 +969,7 @@ a {
     color: #fff;
     margin-bottom: 6px;
     font-size: 1rem;
+    text-align: center;
 }
 
 .footer-links a,
