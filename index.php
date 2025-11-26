@@ -3,7 +3,7 @@
 <section class="hero">
     <div class="hero-overlay"></div>
     <div class="hero-content">
-        <p class="eyebrow">Plzeň - Tylova 68</p>
+        <p class="eyebrow">Plzeň • Tylova 68</p>
         <h1>Re-Move Harmony</h1>
         <p>Masáže, relaxační a pohybové terapie. Pomůžeme vám vrátit tělu i mysli lehkost a klid.</p>
         <div class="hero-actions">
@@ -64,7 +64,7 @@
         <p>Ukážeme vám jednoduché cviky a návyky, které zmenší bolest a posílí stabilitu. Soustředíme se na funkční pohyb, dech a postupné kroky, které můžete zapojit do běžného dne.</p>
     </div>
     <div class="image">
-        <img src="assets/img/services/procedura_pohybova_terapie.jpeg" alt="Fyzioterapie s klientem">
+        <img src="assets/img/services/procedura_pohybova_terapie.jpeg" alt="Terapie s klientem">
     </div>
 </section>
 
@@ -74,16 +74,14 @@
         <div class="team-grid">
             <div class="team-member">
                 <a href="team.php#max">
-                    <img src="assets/img/gallery/interier_1.jpeg" alt="Maxmilián Hošťálek">
-                    <h3>Maxmilián Hošťálek</h3>
-                    <p class="team-snippet">Student fyzioterapie a fyzioterapeut mládeže FC Viktoria Plzeň. Pomáhá s regenerací a prevencí úrazů.</p>
+                    <img src="assets/img/gallery/interier_1.jpeg" alt="Max Hošťálek">
+                    <h3>Max Hošťálek</h3>
                 </a>
             </div>
             <div class="team-member">
                 <a href="team.php#barbora">
                     <img src="assets/img/gallery/interier_2.jpeg" alt="Barbora Kuttanová">
                     <h3>Barbora Kuttanová</h3>
-                    <p class="team-snippet">Masérka a studentka ergoterapie. Spojuje masérské základy s tipy pro zdravější pohyb v běžném dni.</p>
                 </a>
             </div>
         </div>
@@ -100,7 +98,7 @@
         <div>
             <p class="section-label">Fotogalerie</p>
             <h3>Fotogalerie prostoru a procedur</h3>
-            <p>Podívejte se na interiér, vybavení a ukázky našich masáží, tejpování i pohybové terapie. Galerii průběžně doplňujeme o nové fotky.</p>
+            <p>Brzy přidáme nové fotky studia i jednotlivých služeb. Mezitím si můžete domluvit termín a poznat nás osobně.</p>
         </div>
         <div class="cta-actions">
             <a class="btn-primary" href="gallery.php">Přejít do fotogalerie</a>
