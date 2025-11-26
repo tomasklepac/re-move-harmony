@@ -1,8 +1,8 @@
 <!-- includes/meta.php -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Re-Move Harmony — masáže, relaxační a pohybové terapie v Plzni. Pomůžeme vám vrátit tělu i mysli lehkost a rovnováhu.">
-<meta name="author" content="Tomáš Klepač">
+<meta name="description" content="Re-Move Harmony – masáže, relaxační a pohybové terapie v Plzni. Pomůžeme vám vrátit tělu i mysli lehkost a rovnováhu.">
+<meta name="author" content="Tomáš Klepař">
 <meta name="theme-color" content="#3D7077">
 <title>Re-Move Harmony</title>
 

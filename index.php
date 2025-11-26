@@ -3,7 +3,7 @@
 <section class="hero">
     <div class="hero-overlay"></div>
     <div class="hero-content">
-        <p class="eyebrow">Plzeň • Tylova 68</p>
+        <p class="eyebrow">Plzeň - Tylova 68</p>
         <h1>Re-Move Harmony</h1>
         <p>Masáže, relaxační a pohybové terapie. Pomůžeme vám vrátit tělu i mysli lehkost a klid.</p>
         <div class="hero-actions">
@@ -74,14 +74,16 @@
         <div class="team-grid">
             <div class="team-member">
                 <a href="team.php#max">
-                    <img src="assets/img/gallery/interier_1.jpeg" alt="Max Hošťálek">
-                    <h3>Max Hošťálek</h3>
+                    <img src="assets/img/gallery/interier_1.jpeg" alt="Maxmilián Hošťálek">
+                    <h3>Maxmilián Hošťálek</h3>
+                    <p class="team-snippet">Student fyzioterapie a fyzioterapeut mládeže FC Viktoria Plzeň. Pomáhá s regenerací a prevencí úrazů.</p>
                 </a>
             </div>
             <div class="team-member">
                 <a href="team.php#barbora">
                     <img src="assets/img/gallery/interier_2.jpeg" alt="Barbora Kuttanová">
                     <h3>Barbora Kuttanová</h3>
+                    <p class="team-snippet">Masérka a studentka ergoterapie. Spojuje masérské základy s tipy pro zdravější pohyb v běžném dni.</p>
                 </a>
             </div>
         </div>
@@ -96,9 +98,9 @@
 <section class="cta-band">
     <div class="container cta-band-content">
         <div>
-            <p class="section-label">Připravujeme</p>
+            <p class="section-label">Fotogalerie</p>
             <h3>Fotogalerie prostoru a procedur</h3>
-            <p>Brzy přidáme nové fotky studia i jednotlivých služeb. Mezitím si můžete domluvit termín a poznat nás osobně.</p>
+            <p>Podívejte se na interiér, vybavení a ukázky našich masáží, tejpování i pohybové terapie. Galerii průběžně doplňujeme o nové fotky.</p>
         </div>
         <div class="cta-actions">
             <a class="btn-primary" href="gallery.php">Přejít do fotogalerie</a>
