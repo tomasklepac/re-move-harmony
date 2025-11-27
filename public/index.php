@@ -1,4 +1,9 @@
-<?php include 'includes/header.php'; ?>
+<?php
+$pageTitle = 'Re-Move Harmony | Masáže, relaxační a pohybové terapie Plzeň';
+$pageDescription = 'Masáže, relaxační a pohybové terapie. Pomůžeme vám vrátit tělu i mysli lehkost a klid.';
+$ogImage = 'assets/img/hero/interier_2.jpeg';
+include 'includes/header.php';
+?>
 
 <section class="hero">
     <div class="hero-overlay"></div>
@@ -11,7 +16,7 @@
             <a href="contact.php" class="btn-outline">Kontakt</a>
         </div>
         <div class="hero-badges">
-            <span>Masáže & terapie</span>
+            <span>Masáže &amp; terapie</span>
             <span>Individuální plán</span>
             <span>Respekt k vašemu tempu</span>
         </div>
@@ -48,7 +53,7 @@
 
 <section class="section-about alt-right">
     <div class="text">
-        <p class="section-label">Masáže & tejpování</p>
+        <p class="section-label">Masáže &amp; tejpování</p>
         <h3>Regenerace, uvolnění a podpora hojení</h3>
         <p>Relaxační i sportovní masáže, baňkování a tejpy pro rychlejší regeneraci a stabilitu. Vše děláme citlivě, aby se tělo uvolnilo a mohlo se bezpečně vrátit k pohybu.</p>
     </div>
@@ -74,13 +79,13 @@
         <div class="team-grid">
             <div class="team-member">
                 <a href="team.php#max">
-                    <img src="assets/img/gallery/interier_1.jpeg" alt="Max Hošťálek">
-                    <h3>Max Hošťálek</h3>
+                    <img src="assets/img/gallery/Maxmilian_Hostalek.jpeg" alt="Maxmilián Hošťálek">
+                    <h3>Maxmilián Hošťálek</h3>
                 </a>
             </div>
             <div class="team-member">
                 <a href="team.php#barbora">
-                    <img src="assets/img/gallery/interier_2.jpeg" alt="Barbora Kuttanová">
+                    <img src="assets/img/gallery/Barbora_Kuttanova.jpeg" alt="Barbora Kuttanová">
                     <h3>Barbora Kuttanová</h3>
                 </a>
             </div>
@@ -89,20 +94,6 @@
         <div class="cta-inline">
             <a href="team.php" class="btn-primary">Zobrazit celý tým</a>
             <a href="https://www.reservio.cz/b/re-move-harmony" class="btn-outline" target="_blank" rel="noopener">Rezervovat přes Reservio</a>
-        </div>
-    </div>
-</section>
-
-<section class="cta-band">
-    <div class="container cta-band-content">
-        <div>
-            <p class="section-label">Fotogalerie</p>
-            <h3>Fotogalerie prostoru a procedur</h3>
-            <p>Brzy přidáme nové fotky studia i jednotlivých služeb. Mezitím si můžete domluvit termín a poznat nás osobně.</p>
-        </div>
-        <div class="cta-actions">
-            <a class="btn-primary" href="gallery.php">Přejít do fotogalerie</a>
-            <a class="btn-outline" href="services.php">Prohlédnout služby</a>
         </div>
     </div>
 </section>

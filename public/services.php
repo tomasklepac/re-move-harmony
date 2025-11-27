@@ -1,4 +1,9 @@
-<?php include 'includes/header.php'; ?>
+<?php
+$pageTitle = 'Naše služby | Re-Move Harmony';
+$pageDescription = 'Masáže, relaxační a pohybové terapie pro úlevu, regeneraci i prevenci.';
+$ogImage = 'assets/img/services/procedura_relaxacni-sportovni_masaz_7.jpeg';
+include 'includes/header.php';
+?>
 
 <section class="page-hero">
     <div class="container">
@@ -118,7 +123,7 @@
             </div>
             <div class="cta-actions">
                 <a href="https://www.reservio.cz/b/re-move-harmony" class="btn-primary" target="_blank" rel="noopener">Rezervovat přes Reservio</a>
-                <a href="contact.php" class="btn-outline">Potřebuji poradit</a>
+                <a href="/contact.php" class="btn-outline">Potřebuji poradit</a>
             </div>
         </div>
 

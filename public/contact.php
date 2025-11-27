@@ -1,4 +1,9 @@
-<?php include 'includes/header.php'; ?>
+<?php
+$pageTitle = 'Kontakt | Re-Move Harmony';
+$pageDescription = 'Jsme v Plzni na Tylově. Ozvěte se a domluvíme, co potřebujete.';
+$ogImage = 'assets/img/gallery/interier_7.jpeg';
+include 'includes/header.php';
+?>
 
 <section class="page-hero">
     <div class="container">
@@ -22,9 +27,9 @@
                     +420 732 912 705
                 </a>
 
-                <a href="mailto:info@removeharmony.cz" class="contact-btn">
+                <a href="mailto:info@re-moveharmony.cz" class="contact-btn">
                     <i class="fa-solid fa-envelope"></i>
-                    info@removeharmony.cz
+                    info@re-moveharmony.cz
                 </a>
 
                 <a href="https://www.instagram.com/re_move_harmony/" target="_blank" class="contact-btn" rel="noopener">

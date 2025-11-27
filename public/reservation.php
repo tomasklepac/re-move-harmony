@@ -1,4 +1,9 @@
-<?php include 'includes/header.php'; ?>
+<?php
+$pageTitle = 'Rezervace | Re-Move Harmony';
+$pageDescription = 'Objednejte si termín pohodlně online přes Reservio.';
+$ogImage = 'assets/img/gallery/interier_3.jpeg';
+include 'includes/header.php';
+?>
 
 <section class="page-hero">
     <div class="container">

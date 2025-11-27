@@ -12,14 +12,12 @@ Overview
 
 Project structure
 -----------------
-- `index.php` - landing page with hero, studio intro, and quick links to booking and team.
-- `services.php` - catalog of massage, rehabilitation, and taping services with pricing.
-- `reservation.php` - booking instructions and a CTA to the Reservio scheduling link.
-- `contact.php` - contact actions, address, opening hours, and Google Maps embed.
-- `team.php` - therapist bios and photos.
-- `reviews.php` - link-out to verified client reviews on Reservio.
-- `gallery.php` - photo gallery (live shots now, service/team photos to be added).
-- `includes/` - shared `header.php`, `footer.php`, and meta tags.
-- `assets/css/` - base and responsive stylesheets.
-- `assets/js/main.js` - interactive behavior (e.g., burger menu).
-- `assets/img/` - logos, gallery shots, service and team imagery.
+- `public/` - webroot to deploy (point your hosting docroot sem):
+  - `index.php`, `services.php`, `team.php`, `gallery.php`, `reservation.php`, `contact.php`, `reviews.php`
+  - `includes/` - shared `header.php`, `footer.php`, `meta.php`
+  - `assets/` - CSS/JS/fonts/images (logos, gallery, services, team)
+  - `robots.txt`, `sitemap.xml`, `.htaccess`, `site.webmanifest`, `favicon.ico`
+  - `data/` - placeholder JSON files (not currently used)
+- Root (`README.md`, `.gitignore`, `.idea/`) holds meta and project files only.
+
+Hosting tip: nastavte docroot na `public/`. Pokud musíte hostovat přímo v kořeni, ujistěte se, že je publikována právě složka `public/`, jinak bude CSS/JS/asset cesty rozbité.

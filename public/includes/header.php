@@ -6,12 +6,12 @@
 </head>
 <body>
 <?php $currentPage = basename($_SERVER['PHP_SELF'], '.php'); ?>
-<header class="navbar">
+<header class="navbar" role="banner">
     <div class="container nav-container">
         <a href="index.php" class="logo" aria-label="Re-Move Harmony logo">
             <img src="assets/img/logo/logo_clear_modre.png" alt="Re-Move Harmony Logo">
         </a>
-        <nav class="nav-menu">
+        <nav class="nav-menu" aria-label="Hlavní navigace">
             <a href="index.php" class="<?php echo $currentPage === 'index' ? 'active' : ''; ?>">Domů</a>
             <a href="services.php" class="<?php echo $currentPage === 'services' ? 'active' : ''; ?>">Služby</a>
             <a href="team.php" class="<?php echo $currentPage === 'team' ? 'active' : ''; ?>">Tým</a>

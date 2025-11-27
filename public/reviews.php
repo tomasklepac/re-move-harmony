@@ -1,4 +1,9 @@
-<?php include 'includes/header.php'; ?>
+<?php
+$pageTitle = 'Hodnocení klientů | Re-Move Harmony';
+$pageDescription = 'Ověřené recenze sbíráme na Reserviu po každé návštěvě.';
+$ogImage = 'assets/img/gallery/procedura_relaxacni-sportovni_masaz_1.jpeg';
+include 'includes/header.php';
+?>
 
 <section class="page-hero">
     <div class="container">
@@ -12,7 +17,7 @@
         <p>Upřednostňujeme ověřené recenze přímo v rezervačním systému. Díky tomu jsou hodnocení spojená s konkrétní návštěvou a od reálných klientů.</p>
         <div class="cta-actions">
             <a class="btn-primary" href="https://www.reservio.cz/b/re-move-harmony" target="_blank" rel="noopener">Otevřít recenze na Reserviu</a>
-            <a class="btn-outline" href="reservation.php">Zpět na rezervace</a>
+            <a class="btn-outline" href="/reservation.php">Zpět na rezervace</a>
         </div>
     </div>
 </section>

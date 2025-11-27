@@ -1,4 +1,9 @@
-<?php include 'includes/header.php'; ?>
+<?php
+$pageTitle = 'Tým | Re-Move Harmony';
+$pageDescription = 'Poznejte lidi, kteří se postarají o vaši péči v Re-Move Harmony.';
+$ogImage = 'assets/img/gallery/maseri_vyska.jpeg';
+include 'includes/header.php';
+?>
 
 <section class="page-hero">
     <div class="container">
@@ -10,7 +15,7 @@
 <section class="team-detail">
     <div class="container">
         <div class="team-member-detail" id="max">
-            <img src="assets/img/gallery/interier_1.jpeg" alt="Maxmilián Hošťálek">
+            <img src="assets/img/gallery/Maxmilian_Hostalek.jpeg" alt="Maxmilián Hošťálek">
             <div class="info">
                 <h2>Maxmilián Hošťálek</h2>
                 <p class="tagline">Student fyzioterapie • sportovní regenerace a prevence</p>
@@ -23,14 +28,14 @@
         </div>
 
         <div class="team-member-detail" id="barbora">
-            <img src="assets/img/gallery/interier_2.jpeg" alt="Barbora Kuttanová">
+            <img src="assets/img/gallery/Barbora_Kuttanova.jpeg" alt="Barbora Kuttanová">
             <div class="info">
                 <h2>Barbora Kuttanová</h2>
                 <p class="tagline">Masérka a studentka ergoterapie • empatický přístup</p>
                 <p>Jsem Barbora Kuttanová, vystudovaná masérka a v současnosti studentka ergoterapie. V mých 21 letech propojuji pevné masérské základy s komplexním pohledem na lidské tělo a jeho každodenní funkce.</p>
                 <p><strong>Praxe z lázní:</strong> Své masérské dovednosti jsem zdokonalila v praxi, mimo jiné jako masérka v lázních Purkmistr. Díky tomu mám bohaté zkušenosti s širokým spektrem klientů a potřeb – od hloubkové regenerace po čistou relaxaci.</p>
                 <p><strong>Ergoterapie v praxi:</strong> Studium ergoterapie mi umožňuje nahlížet na vaše tělo s ohledem na každodenní činnosti. Nejenže uvolním napětí, ale pomohu vám pochopit, jak zlepšit držení těla a návyky, které vedou k chronickým bolestem.</p>
-                <p><strong>Empatie a energie:</strong> Jsem usměvavá, skvěle naladěna, pracovitá a energická sportovkyně. K masáži přistupuji empaticky a s plným nasazením. Každou terapii vnímám jako chvíli, kdy mohu pomocí svých zkušených rukou obnovit vaši energii a pohodu.</p>
+                <p><strong>Empatie a energie:</strong> Jsem usměvavá, skvěle naladěná, pracovitá a energická sportovkyně. K masáži přistupuji empaticky a s plným nasazením. Každou terapii vnímám jako chvíli, kdy mohu pomocí svých zkušených rukou obnovit vaši energii a pohodu.</p>
                 <p>Jsem připravena vám poskytnout nejen úlevu, ale i pocit, že je o vás komplexně postaráno. Těším se na vás a na to, až společně najdeme cestu k vaší tělesné harmonii!</p>
             </div>
         </div>

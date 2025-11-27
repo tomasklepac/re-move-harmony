@@ -1,4 +1,9 @@
-<?php include 'includes/header.php'; ?>
+<?php
+$pageTitle = 'Fotogalerie | Re-Move Harmony';
+$pageDescription = 'Jedna útulná místnost pro všechny procedury. Podívejte se, jak to u nás vypadá a jak pracujeme.';
+$ogImage = 'assets/img/gallery/interier_7.jpeg';
+include 'includes/header.php';
+?>
 
 <section class="page-hero">
     <div class="container">
