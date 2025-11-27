@@ -73,7 +73,7 @@ include 'includes/header.php';
             </div>
 
             <div class="service-card" data-category="masaze">
-                <img src="assets/img/services/procedura_relaxacni-sportovni_masaz_1.jpeg" alt="Masáž lávovými kameny">
+                <img src="assets/img/services/procedura_lavove_kameny_1.jpeg" alt="Masáž lávovými kameny">
                 <h3>Masáž lávovými kameny</h3>
                 <p>Hluboce relaxační terapie s nahřátými kameny. Teplo proniká do svalů, uvolňuje napětí, zlepšuje prokrvení a přináší pocit harmonie.</p>
                 <span class="price">800 Kč</span>
