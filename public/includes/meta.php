@@ -6,7 +6,7 @@ function rh_esc($value): string
 }
 
 $defaultTitle = 'Re-Move Harmony | Masáže, relaxační a pohybové terapie Plzeň';
-$defaultDescription = 'Re-Move Harmony – masáže, relaxační a pohybové terapie v Plzni. Pomůžeme vám vrátit tělu i mysli lehkost a rovnováhu.';
+$defaultDescription = 'Re-Move Harmony - masáže, relaxační a pohybové terapie v Plzni. Pomůžeme vám vrátit tělu i mysli lehkost a rovnováhu.';
 
 $scheme = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
 $host = $_SERVER['HTTP_HOST'] ?? 'localhost';
@@ -18,7 +18,7 @@ $siteUrl = rtrim($baseUrl . ($pathPrefix === '' ? '' : '/' . $pathPrefix), '/');
 $requestUri = $_SERVER['REQUEST_URI'] ?? '/';
 $currentUrl = $currentUrl ?? ($baseUrl . $requestUri);
 $currentUrlNoQuery = strtok($currentUrl, '?');
-$ogImage = $ogImage ?? rtrim($baseUrl, '/') . '/' . $assetPrefix . 'assets/img/logo/logo_clear.png';
+$ogImage = $ogImage ?? rtrim($baseUrl, '/') . '/' . $assetPrefix . 'assets/img/team/maseri_sirka.jpeg';
 if (!preg_match('#^https?://#', $ogImage)) {
     $ogImage = rtrim($baseUrl, '/') . '/' . $assetPrefix . ltrim($ogImage, '/');
 }
