@@ -49,16 +49,17 @@ $pageDescription = $pageDescription ?? $defaultDescription;
 <meta name="twitter:description" content="<?php echo rh_esc($pageDescription); ?>">
 <meta name="twitter:image" content="<?php echo rh_esc($ogImage); ?>">
 
-<link rel="icon" type="image/png" sizes="16x16" href="assets/img/logo/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="24x24" href="assets/img/logo/favicon-24x24.png">
-<link rel="icon" type="image/png" sizes="32x32" href="assets/img/logo/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="48x48" href="assets/img/logo/favicon-48x48.png">
-<link rel="icon" type="image/png" sizes="96x96" href="assets/img/logo/favicon-96x96.png">
-<link rel="icon" type="image/png" sizes="128x128" href="assets/img/logo/favicon-128x128.png">
-<link rel="icon" type="image/png" sizes="256x256" href="assets/img/logo/favicon-256x256.png">
-<link rel="apple-touch-icon" sizes="180x180" href="assets/img/logo/apple-touch-icon.png">
-<link rel="manifest" href="site.webmanifest">
-<link rel="shortcut icon" href="favicon.ico">
+<link rel="icon" href="<?php echo rh_esc($assetPrefix); ?>favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="16x16" href="<?php echo rh_esc($assetPrefix); ?>assets/img/logo/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="24x24" href="<?php echo rh_esc($assetPrefix); ?>assets/img/logo/favicon-24x24.png">
+<link rel="icon" type="image/png" sizes="32x32" href="<?php echo rh_esc($assetPrefix); ?>assets/img/logo/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="48x48" href="<?php echo rh_esc($assetPrefix); ?>assets/img/logo/favicon-48x48.png">
+<link rel="icon" type="image/png" sizes="96x96" href="<?php echo rh_esc($assetPrefix); ?>assets/img/logo/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="128x128" href="<?php echo rh_esc($assetPrefix); ?>assets/img/logo/favicon-128x128.png">
+<link rel="icon" type="image/png" sizes="256x256" href="<?php echo rh_esc($assetPrefix); ?>assets/img/logo/favicon-256x256.png">
+<link rel="apple-touch-icon" sizes="180x180" href="<?php echo rh_esc($assetPrefix); ?>assets/img/logo/apple-touch-icon.png">
+<link rel="manifest" href="<?php echo rh_esc($assetPrefix); ?>site.webmanifest">
+<link rel="shortcut icon" href="<?php echo rh_esc($assetPrefix); ?>favicon.ico">
 
 <!-- Google Fonts -->
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Libre+Baskerville:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
